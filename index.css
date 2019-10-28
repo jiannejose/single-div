@@ -770,7 +770,10 @@
 
 .container--harryPotter {
     background-color: #faaa55;
-    box-shadow: inset -180px 0 0 0 #54171a;
+    box-shadow:
+        inset 75px 0 0 0 #faaa55,
+        inset 120px 0 0 0 #54171a
+    ;
 }
 
 #harryPotter {
@@ -783,7 +786,7 @@
     border-radius: 100%;
     box-shadow:
         0 0 0 5px #000000,
-        92px 0 0 0 #54171a,
+        92px 0 0 0 #faaa55,
         92px 0 0 5px #000000,
         46px 12px 0 -12px #faaa55,
         46px 7px 0 -12px #000000
